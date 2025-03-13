@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                script {
+                scrpt {
                     sh './PES1UG22CS240-1'
                 }
             }
